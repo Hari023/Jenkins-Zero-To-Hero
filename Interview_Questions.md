@@ -136,4 +136,28 @@ Q: What are some of the common plugins that you use in Jenkins ?
 
 A: Be prepared for answer, you need to have atleast 3-4 on top of your head, so that interview feels you use jenkins on a day-to-day basis.
 
+1. Git plugin
+
+"I use the Git plugin to integrate Jenkins with Git repositories and pull the application source code during the build."
+
+2. Pipeline plugin
+
+"The Pipeline plugin is used to create CI/CD pipelines using a Jenkinsfile, where we define stages such as checkout, build, test, SonarQube scan and deployment."
+
+3. Credentials Binding
+
+"We use Credentials Binding to securely access credentials such as Git tokens or other secrets without hardcoding them in the Jenkinsfile."
+
+4. SonarQube Scanner
+
+"We use the SonarQube Scanner plugin to integrate Jenkins with SonarQube and perform code-quality and vulnerability analysis as part of the pipeline."
+
+If they ask: "Which plugins have you personally used?"
+
+Since your Jenkins experience is hands-on but not necessarily managing a large Jenkins environment, don't claim plugins you haven't actually used.
+
+A safe answer based on your current lab experience would be:
+
+"I have mainly worked with Git integration, Pipeline, Credentials, and SonarQube integration. Git is used for source-code checkout, Pipeline for defining CI/CD stages, Credentials for securely managing authentication details, and SonarQube Scanner for code-quality analysis."
+
 
